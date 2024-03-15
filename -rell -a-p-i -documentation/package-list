@@ -1,0 +1,41 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:rell////PointingToDeclaration/-rell -a-p-i -documentation/rell/index.html
+$dokka.location:rell/big_integer///PointingToDeclaration/-rell -a-p-i -documentation/rell/big_integer/index.html
+$dokka.location:rell/boolean///PointingToDeclaration/-rell -a-p-i -documentation/rell/boolean/index.html
+$dokka.location:rell/byte_array///PointingToDeclaration/-rell -a-p-i -documentation/rell/byte_array/index.html
+$dokka.location:rell/collection///PointingToDeclaration/-rell -a-p-i -documentation/rell/collection/index.html
+$dokka.location:rell/comparable///PointingToDeclaration/-rell -a-p-i -documentation/rell/comparable/index.html
+$dokka.location:rell/decimal///PointingToDeclaration/-rell -a-p-i -documentation/rell/decimal/index.html
+$dokka.location:rell/entity///PointingToDeclaration/-rell -a-p-i -documentation/rell/entity/index.html
+$dokka.location:rell/enum///PointingToDeclaration/-rell -a-p-i -documentation/rell/enum/index.html
+$dokka.location:rell/gtv///PointingToDeclaration/-rell -a-p-i -documentation/rell/gtv/index.html
+$dokka.location:rell/guid///PointingToDeclaration/-rell -a-p-i -documentation/rell/guid/index.html
+$dokka.location:rell/immutable///PointingToDeclaration/-rell -a-p-i -documentation/rell/immutable/index.html
+$dokka.location:rell/immutable_mirror_struct///PointingToDeclaration/-rell -a-p-i -documentation/rell/immutable_mirror_struct/index.html
+$dokka.location:rell/integer///PointingToDeclaration/-rell -a-p-i -documentation/rell/integer/index.html
+$dokka.location:rell/iterable///PointingToDeclaration/-rell -a-p-i -documentation/rell/iterable/index.html
+$dokka.location:rell/json///PointingToDeclaration/-rell -a-p-i -documentation/rell/json/index.html
+$dokka.location:rell/list///PointingToDeclaration/-rell -a-p-i -documentation/rell/list/index.html
+$dokka.location:rell/map///PointingToDeclaration/-rell -a-p-i -documentation/rell/map/index.html
+$dokka.location:rell/map_entry///PointingToDeclaration/-rell -a-p-i -documentation/rell/map_entry/index.html
+$dokka.location:rell/meta///PointingToDeclaration/-rell -a-p-i -documentation/rell/meta/index.html
+$dokka.location:rell/mirror_struct///PointingToDeclaration/-rell -a-p-i -documentation/rell/mirror_struct/index.html
+$dokka.location:rell/mutable_mirror_struct///PointingToDeclaration/-rell -a-p-i -documentation/rell/mutable_mirror_struct/index.html
+$dokka.location:rell/null_extension///PointingToDeclaration/-rell -a-p-i -documentation/rell/null_extension/index.html
+$dokka.location:rell/object///PointingToDeclaration/-rell -a-p-i -documentation/rell/object/index.html
+$dokka.location:rell/operation///PointingToDeclaration/-rell -a-p-i -documentation/rell/operation/index.html
+$dokka.location:rell/range///PointingToDeclaration/-rell -a-p-i -documentation/rell/range/index.html
+$dokka.location:rell/rowid///PointingToDeclaration/-rell -a-p-i -documentation/rell/rowid/index.html
+$dokka.location:rell/set///PointingToDeclaration/-rell -a-p-i -documentation/rell/set/index.html
+$dokka.location:rell/signer///PointingToDeclaration/-rell -a-p-i -documentation/rell/signer/index.html
+$dokka.location:rell/struct///PointingToDeclaration/-rell -a-p-i -documentation/rell/struct/index.html
+$dokka.location:rell/text///PointingToDeclaration/-rell -a-p-i -documentation/rell/text/index.html
+$dokka.location:rell/unit///PointingToDeclaration/-rell -a-p-i -documentation/rell/unit/index.html
+$dokka.location:rell/virtual///PointingToDeclaration/-rell -a-p-i -documentation/rell/virtual/index.html
+$dokka.location:rell/virtual_collection///PointingToDeclaration/-rell -a-p-i -documentation/rell/virtual_collection/index.html
+$dokka.location:rell/virtual_list///PointingToDeclaration/-rell -a-p-i -documentation/rell/virtual_list/index.html
+$dokka.location:rell/virtual_map///PointingToDeclaration/-rell -a-p-i -documentation/rell/virtual_map/index.html
+$dokka.location:rell/virtual_set///PointingToDeclaration/-rell -a-p-i -documentation/rell/virtual_set/index.html
+rell
+

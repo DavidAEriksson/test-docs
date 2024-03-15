@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>raffle</title>
+    <link href="../../images/favicon.png" rel="icon" type="image/png">
+    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../styles/chromia-styles.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../index.html">
+                            Stuttcart marketplace
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector wasm-like" data-active="" data-filter="main/dapp">dapp</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="Stuttcart marketplace::raffle////PointingToDeclaration//-350584692">
+  <div class="breadcrumbs"><a href="../../index.html">Stuttcart marketplace</a><span class="delimiter">/</span><span class="current">raffle</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Module-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button><button class="section-tab" data-togglable="OPERATION">Operations</button><button class="section-tab" data-togglable="QUERY">Queries</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="612190188%2FClasslikes%2F-350584692" anchor-label="PrizeType" id="612190188%2FClasslikes%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-prize-type/index.html"><span>Prize</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="612190188%2FClasslikes%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-prize-type/index.html">PrizeType</a></div><div class="brief ">This enum is called PrizeType</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-45892350%2FClasslikes%2F-350584692" anchor-label="Raffle" id="-45892350%2FClasslikes%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-raffle/index.html"><span><span>Raffle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-45892350%2FClasslikes%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">entity </span><a href="-raffle/index.html">Raffle</a></div><div class="brief ">This entity is called Raffle</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1976220238%2FClasslikes%2F-350584692" anchor-label="RafflePrize" id="1976220238%2FClasslikes%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-raffle-prize/index.html"><span>Raffle</span><wbr></wbr><span><span>Prize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1976220238%2FClasslikes%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">entity </span><a href="-raffle-prize/index.html">RafflePrize</a></div><div class="brief ">This entity is called RafflePrize</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-335419729%2FClasslikes%2F-350584692" anchor-label="RaffleState" id="-335419729%2FClasslikes%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-raffle-state/index.html"><span>Raffle</span><wbr></wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-335419729%2FClasslikes%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">object </span><a href="-raffle-state/index.html">RaffleState</a></div><div class="brief ">This object is called RaffleState</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2046979734%2FClasslikes%2F-350584692" anchor-label="RaffleTicket" id="2046979734%2FClasslikes%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-raffle-ticket/index.html"><span>Raffle</span><wbr></wbr><span><span>Ticket</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2046979734%2FClasslikes%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">entity </span><a href="-raffle-ticket/index.html">RaffleTicket</a></div><div class="brief ">This entity is called RaffleTicket</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1080750888%2FFunctions%2F-350584692" anchor-label="mint_prizes" id="1080750888%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mint_prizes.html"><span><span>mint_prizes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1080750888%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">function </span><a href="mint_prizes.html">mint_prizes</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">raffle<span class="token operator">: </span><a href="-raffle/index.html">Raffle</a><span class="token punctuation">, </span></span><span class="parameter ">prize_template_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span></span><span class="parameter ">prizes_amount<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a></span></span><span class="token punctuation">)</span></div><div class="brief ">This function is called mint_prizes</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="643807401%2FFunctions%2F-350584692" anchor-label="mint_raffle_ticket" id="643807401%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mint_raffle_ticket.html"><span><span>mint_raffle_ticket</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="643807401%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">function </span><a href="mint_raffle_ticket.html">mint_raffle_ticket</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">to<span class="token operator">: </span><a href="../lib.ft4.accounts/account/index.html">account</a><span class="token punctuation">, </span></span><span class="parameter ">raffle<span class="token operator">: </span><a href="-raffle/index.html">Raffle</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-raffle-ticket/index.html">RaffleTicket</a></div><div class="brief ">This function is called mint_raffle_ticket</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="QUERY">
+        <h2 class="">Queries</h2>
+        <div class="table"><a data-name="-5149567%2FFunctions%2F-350584692" anchor-label="get_all_raffles" id="-5149567%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get_all_raffles.html"><span><span>get_all_raffles</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-5149567%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">query </span><a href="get_all_raffles.html">get_all_raffles</a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/list/index.html">list</a><span class="token operator">&lt;</span><span class="token operator">(</span>id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span>name<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>description<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>collection<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>finalized<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/boolean/index.html">boolean</a><span class="token punctuation">, </span>prize_type<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token operator">)</span><span class="token operator">&gt;</span></div><div class="brief ">This function is called get_all_raffles</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-103801597%2FFunctions%2F-350584692" anchor-label="get_raffle_by_id" id="-103801597%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get_raffle_by_id.html"><span><span>get_raffle_by_id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-103801597%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">query </span><a href="get_raffle_by_id.html">get_raffle_by_id</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span class="token operator">(</span>name<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>description<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>collection<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>finalized<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/boolean/index.html">boolean</a><span class="token punctuation">, </span>prize_type<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token operator">)</span></div><div class="brief ">This function is called get_raffle_by_id</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2033443707%2FFunctions%2F-350584692" anchor-label="get_raffle_tickets_of_account" id="2033443707%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get_raffle_tickets_of_account.html"><span><span>get_raffle_tickets_of_account</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2033443707%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">query </span><a href="get_raffle_tickets_of_account.html">get_raffle_tickets_of_account</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">account<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/byte_array/index.html">byte_array</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/list/index.html">list</a><span class="token operator">&lt;</span><span class="token operator">(</span>token_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span>raffle_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span>raffle_name<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>raffle_description<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span>raffle_collection_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span>raffle_finalized<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/boolean/index.html">boolean</a><span class="token punctuation">, </span>raffle_prize_type<span class="token operator">: </span><a href="-prize-type/index.html">PrizeType</a><span class="token operator">)</span><span class="token operator">&gt;</span></div><div class="brief ">This function is called get_raffle_tickets_of_account</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="OPERATION">
+        <h2 class="">Operations</h2>
+        <div class="table"><a data-name="1348498910%2FFunctions%2F-350584692" anchor-label="create_raffle" id="1348498910%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="create_raffle.html"><span><span>create_raffle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1348498910%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">operation </span><a href="create_raffle.html">create_raffle</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">collection_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/text/index.html">text</a><span class="token punctuation">, </span></span><span class="parameter ">prize_type<span class="token operator">: </span><a href="-prize-type/index.html">PrizeType</a><span class="token punctuation">, </span></span><span class="parameter ">prize_template_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span></span><span class="parameter ">prizes_amount<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a></span></span><span class="token punctuation">)</span></div><div class="brief ">This function is called create_raffle</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-209711864%2FFunctions%2F-350584692" anchor-label="finalize_raffle" id="-209711864%2FFunctions%2F-350584692" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="finalize_raffle.html"><span><span>finalize_raffle</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-209711864%2FFunctions%2F-350584692"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="symbol monospace"><span class="token keyword">operation </span><a href="finalize_raffle.html">finalize_raffle</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">raffle_id<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token punctuation">, </span></span><span class="parameter ">winner_nfts<span class="token operator">: </span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/list/index.html">list</a><span class="token operator">&lt;</span><a href="https://docs.chromia.com/pages/rell/-rell -system -library/root/integer/index.html">integer</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief ">This function is called finalize_raffle</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+        <span>© 2024 Chromia</span>
+        <span class="pull-right">
+            <span>Generated by </span>
+            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                <span>dokka</span>
+            </a>
+        </span>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

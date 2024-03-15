@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>rell</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../images/chromia-symbol.png">
+<link href="../../styles/chromia-styles.css" rel="Stylesheet">
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../index.html">
+                            Stuttcart marketplace
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter="main/dapp">JVM</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="Stuttcart marketplace::rell////PointingToDeclaration//-1621940227">
+  <div class="breadcrumbs"><a href="../../index.html">Rell API Documentation</a><span class="delimiter">/</span><span class="current">rell</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Module-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1736467374%2FClasslikes%2F-1621940227" anchor-label="big_integer" id="1736467374%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="big_integer/index.html"><span><span>big_integer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1736467374%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">A data type that represents large integers with high precision, capable of handling very large numbers.
+Uses `java.math.BigInteger` internally.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2003436891%2FClasslikes%2F-1621940227" anchor-label="boolean" id="-2003436891%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="boolean/index.html"><span><span>boolean</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2003436891%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">A simple data type that represents two values: true and false.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1033064179%2FClasslikes%2F-1621940227" anchor-label="byte_array" id="1033064179%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="byte_array/index.html"><span><span>byte_array</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1033064179%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">An array of bytes. This type is immutable.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1945054263%2FClasslikes%2F-1621940227" anchor-label="collection" id="1945054263%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="collection/index.html"><span><span>collection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1945054263%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type collection</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1707511163%2FClasslikes%2F-1621940227" anchor-label="comparable" id="1707511163%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="comparable/index.html"><span><span>comparable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1707511163%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type comparable</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-961772644%2FClasslikes%2F-1621940227" anchor-label="decimal" id="-961772644%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="decimal/index.html"><span><span>decimal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-961772644%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">A data type for representing real numbers with high precision.
+Uses `java.math.BigDecimal` internally.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1262948498%2FClasslikes%2F-1621940227" anchor-label="entity" id="1262948498%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="entity/index.html"><span><span>entity</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1262948498%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type entity</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="945497652%2FClasslikes%2F-1621940227" anchor-label="enum" id="945497652%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="enum/index.html"><span><span>enum</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="945497652%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type enum</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1589573316%2FClasslikes%2F-1621940227" anchor-label="gtv" id="1589573316%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gtv/index.html"><span><span>gtv</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1589573316%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type gtv</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1614900652%2FClasslikes%2F-1621940227" anchor-label="guid" id="1614900652%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="guid/index.html"><span><span>guid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1614900652%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type guid</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1853968501%2FClasslikes%2F-1621940227" anchor-label="immutable" id="-1853968501%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="immutable/index.html"><span><span>immutable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1853968501%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type immutable</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2095354763%2FClasslikes%2F-1621940227" anchor-label="immutable_mirror_struct" id="-2095354763%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="immutable_mirror_struct/index.html"><span><span>immutable_mirror_struct</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2095354763%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type immutable_mirror_struct</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-579163569%2FClasslikes%2F-1621940227" anchor-label="integer" id="-579163569%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="integer/index.html"><span><span>integer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-579163569%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Represents a 64-bit signed integer</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1859389981%2FClasslikes%2F-1621940227" anchor-label="iterable" id="-1859389981%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="iterable/index.html"><span><span>iterable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1859389981%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type iterable</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1693626413%2FClasslikes%2F-1621940227" anchor-label="json" id="1693626413%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="json/index.html"><span><span>json</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1693626413%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Wrapper object for a JSON-string.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1069835575%2FClasslikes%2F-1621940227" anchor-label="list" id="1069835575%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="list/index.html"><span><span>list</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1069835575%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type list</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1215761935%2FClasslikes%2F-1621940227" anchor-label="map" id="-1215761935%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="map/index.html"><span><span>map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1215761935%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type map</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-420188706%2FClasslikes%2F-1621940227" anchor-label="map_entry" id="-420188706%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="map_entry/index.html"><span><span>map_entry</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-420188706%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type map_entry</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1140846160%2FClasslikes%2F-1621940227" anchor-label="meta" id="-1140846160%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="meta/index.html"><span><span>meta</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1140846160%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type meta</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2106205720%2FClasslikes%2F-1621940227" anchor-label="mirror_struct" id="2106205720%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mirror_struct/index.html"><span><span>mirror_struct</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2106205720%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type mirror_struct</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1615399599%2FClasslikes%2F-1621940227" anchor-label="mutable_mirror_struct" id="-1615399599%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mutable_mirror_struct/index.html"><span><span>mutable_mirror_struct</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1615399599%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type mutable_mirror_struct</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1869639314%2FClasslikes%2F-1621940227" anchor-label="null_extension" id="-1869639314%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="null_extension/index.html"><span><span>null_extension</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1869639314%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type null_extension</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-599584586%2FClasslikes%2F-1621940227" anchor-label="object" id="-599584586%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="object/index.html"><span><span>object</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-599584586%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type object</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1341370182%2FClasslikes%2F-1621940227" anchor-label="operation" id="1341370182%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="operation/index.html"><span><span>operation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1341370182%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type operation</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1234577872%2FClasslikes%2F-1621940227" anchor-label="range" id="-1234577872%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="range/index.html"><span><span>range</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1234577872%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type range</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-521509384%2FClasslikes%2F-1621940227" anchor-label="rowid" id="-521509384%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="rowid/index.html"><span><span>rowid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-521509384%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">The primary key of a database record, a 64-bit integer.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1226354091%2FClasslikes%2F-1621940227" anchor-label="set" id="1226354091%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set/index.html"><span><span>set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1226354091%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type set</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1627917525%2FClasslikes%2F-1621940227" anchor-label="signer" id="-1627917525%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="signer/index.html"><span><span>signer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1627917525%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type signer</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1818632992%2FClasslikes%2F-1621940227" anchor-label="struct" id="-1818632992%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="struct/index.html"><span><span>struct</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1818632992%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type struct</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-443236472%2FClasslikes%2F-1621940227" anchor-label="text" id="-443236472%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="text/index.html"><span><span>text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-443236472%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">An immutable data type for representing character strings.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="712895249%2FClasslikes%2F-1621940227" anchor-label="unit" id="712895249%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="unit/index.html"><span><span>unit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="712895249%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type unit</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="80297250%2FClasslikes%2F-1621940227" anchor-label="virtual" id="80297250%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="virtual/index.html"><span><span>virtual</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="80297250%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type virtual</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-56776445%2FClasslikes%2F-1621940227" anchor-label="virtual_collection" id="-56776445%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="virtual_collection/index.html"><span><span>virtual_collection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-56776445%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type virtual_collection</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1726780669%2FClasslikes%2F-1621940227" anchor-label="virtual_list" id="-1726780669%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="virtual_list/index.html"><span><span>virtual_list</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1726780669%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type virtual_list</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2137259355%2FClasslikes%2F-1621940227" anchor-label="virtual_map" id="-2137259355%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="virtual_map/index.html"><span><span>virtual_map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2137259355%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type virtual_map</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="304856671%2FClasslikes%2F-1621940227" anchor-label="virtual_set" id="304856671%2FClasslikes%2F-1621940227" data-filterable-set="main/dapp"></a>
+          <div class="table-row" data-filterable-current="main/dapp" data-filterable-set="main/dapp">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="virtual_set/index.html"><span><span>virtual_set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="304856671%2FClasslikes%2F-1621940227"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="main/dapp"><div class="brief ">Type virtual_set</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
