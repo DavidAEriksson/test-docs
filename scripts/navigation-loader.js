@@ -2,7 +2,7 @@
  * Copyright 2014-2023 JetBrains s.r.o. Use of this source code is governed by the Apache 2.0 license.
  */
 
-navigationPageText = fetch("navigation.html").then((response) =>
+navigationPageText = fetch(pathToRoot + "navigation.html").then((response) =>
   response.text(),
 );
 
